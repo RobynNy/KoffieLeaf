@@ -128,6 +128,7 @@
         }
 		if(textInput === '' && textArea === '' && emailAddress.value === '') {
 			alert('Fill in contact page');
+			return
 		}
 		if(textInput === ''){
 			alert('Please fill in your name.')
