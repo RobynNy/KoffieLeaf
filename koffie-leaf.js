@@ -136,6 +136,7 @@
                 }else {
 			alert('Your message has been received. We will respond as soon as possible.')
 		}
+	        return false;
 	}
 
 
