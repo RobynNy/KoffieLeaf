@@ -132,8 +132,10 @@
 			alert('Please input a message.')
 		}
 		if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailAddress.value))) {
-            alert('Please input a proper email.')
-        }
+                        alert('Please input a proper email.')
+                }else {
+			alert('Your message has been received. We will respond as soon as possible.')
+		}
 	}
 
 
